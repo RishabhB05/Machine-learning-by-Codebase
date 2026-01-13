@@ -1,0 +1,13 @@
+Answer these QUESTIONS in 5 minutes:
+
+What happens if learning rate is too HIGH? (Give specific example)
+Ans:- If the learning rate is too high, the "hiker" (the algorithm) takes steps that are so large they actually jump over the valley (the minimum error) and land on the other side, higher up than where they started
+
+
+What does the cost function graph look like for gradient descent?
+Ans:-The cost function graph usually looks like a U-shaped bowl (in 2D) or a valley (in 3D). This is called a Convex shape.
+
+
+Why can't we always use normal equation instead of gradient descent?
+Ans:-The Normal Equation (3$\theta = (X^T X)^{-1} X^T y$) is a "one-shot" math solution.4 It seems perfect, but it has one major weakness: The Inverse ($X^T X)^{-1}$.
+     In computer science, calculating the inverse of a matrix is very "expensive" for the processor.
